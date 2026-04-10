@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="logo">My Portfolio</h1>
+      <nav>
+        <a href="#works">作品</a>
+        <a href="#profile">プロフィール</a>
+        <a href="#contact">連絡先</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="p5-wrapper">
+          <div id="p5-container"></div>
+        </div>
+        <div class="hero-copy">
+          <h2>ようこそ</h2>
+          <p>
+            ページを読み込むたびに、複数のP5描画の中からランダムで1つを表示します。
+          </p>
+        </div>
+      </section>
+
+      <section id="works" class="content-section">
+        <h2>作品紹介</h2>
+        <div class="works-grid">
+          <article class="work-card">
+            <h3>作品A</h3>
+            <p>概要をここに記載します。</p>
+          </article>
+          <article class="work-card">
+            <h3>作品B</h3>
+            <p>概要をここに記載します。</p>
+          </article>
+          <article class="work-card">
+            <h3>作品C</h3>
+            <p>概要をここに記載します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="profile" class="content-section">
+        <h2>プロフィール</h2>
+        <p>あなたのプロフィール情報をここに記載します。</p>
+      </section>
+
+      <section id="contact" class="content-section">
+        <h2>連絡先</h2>
+        <p>メールアドレス・SNSリンクなどをここに記載します。</p>
+      </section>
+    </main>
+  </body>
+</html>
