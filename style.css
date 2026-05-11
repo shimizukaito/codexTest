@@ -1,13 +1,16 @@
 :root {
 
+
   --bg: #f5f6fa;
   --text: #1d1f2a;
   --card: #ffffff;
   --accent: #364fc7;
+
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+
 
 body {
   margin: 0;
@@ -21,10 +24,12 @@ body {
   position: sticky;
   top: 0;
   z-index: 20;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+
   background: rgba(255,255,255,.95);
   border-bottom: 1px solid #e7e9f2;
 }
@@ -61,4 +66,5 @@ main { width: min(1100px, calc(100% - 2rem)); margin: 0 auto; }
 .work-card span { color: #6b7280; margin-left: .4rem; font-weight: 500; }
 .work-card:hover { border-color: var(--accent); transform: translateY(-1px); }
 ul { padding-left: 1.2rem; }
+
 
