@@ -3,60 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+
+    <title>清水 海人 | ポートフォリオ</title>
+
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <h1 class="logo">My Portfolio</h1>
+
+      <h1 class="logo">Shimizu Kaito</h1>
       <nav>
-        <a href="#works">作品</a>
-        <a href="#profile">プロフィール</a>
-        <a href="#contact">連絡先</a>
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+        <a href="#contact">Contact</a>
+
       </nav>
     </header>
 
     <main>
-      <section class="hero" id="top">
+
+      <section class="hero">
         <div class="p5-wrapper">
           <div id="p5-container"></div>
         </div>
-        <div class="hero-copy">
-          <h2>ようこそ</h2>
-          <p>
-            ページを読み込むたびに、複数のP5描画の中からランダムで1つを表示します。
-          </p>
-        </div>
+        <p class="hero-note">ページを読み込むたびにP5作品をランダム表示します。</p>
       </section>
 
       <section id="works" class="content-section">
-        <h2>作品紹介</h2>
+        <h2>Works</h2>
         <div class="works-grid">
-          <article class="work-card">
-            <h3>作品A</h3>
-            <p>概要をここに記載します。</p>
-          </article>
-          <article class="work-card">
-            <h3>作品B</h3>
-            <p>概要をここに記載します。</p>
-          </article>
-          <article class="work-card">
-            <h3>作品C</h3>
-            <p>概要をここに記載します。</p>
-          </article>
+          <a class="work-card" href="https://shimizukaito.github.io/work/MEISEI%20Clossing.html" target="_blank" rel="noopener noreferrer">MEISEI Clossing <span>2024</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/HeighlyExplosive.html" target="_blank" rel="noopener noreferrer">Highly Explosion <span>2024</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/RoboticDrumMachine.html" target="_blank" rel="noopener noreferrer">Robotic Drum Machine <span>2024</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB.html" target="_blank" rel="noopener noreferrer">スツール <span>2023</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/SnowFlake.html" target="_blank" rel="noopener noreferrer">SnowFlake <span>2023</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/ConectingPastSpase.html" target="_blank" rel="noopener noreferrer">Conecting Past Spase <span>2023</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/SoundDrop.html" target="_blank" rel="noopener noreferrer">Sound Drop <span>2023</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/VoiceFlower.html" target="_blank" rel="noopener noreferrer">Voice Flower <span>2023</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/%E3%81%93%E3%82%8C%E3%81%8F%E3%82%89%E3%81%84%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9.html" target="_blank" rel="noopener noreferrer">これくらいデバイス(卒業研究) <span>2022</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/Ywine.html" target="_blank" rel="noopener noreferrer">Ywine <span>2021</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/MazeGenerator.html" target="_blank" rel="noopener noreferrer">Maze Generator <span>2021</span></a>
+          <a class="work-card" href="https://shimizukaito.github.io/work/%E5%AF%8C%E6%88%B8%E3%83%96%E3%83%AB%E3%83%BC.html" target="_blank" rel="noopener noreferrer">富戸ブルー <span>2020</span></a>
         </div>
       </section>
 
-      <section id="profile" class="content-section">
-        <h2>プロフィール</h2>
-        <p>あなたのプロフィール情報をここに記載します。</p>
+      <section id="about" class="content-section">
+        <h2>About</h2>
+        <p>清水 海人 | Kaito Shimizu</p>
+        <p>インタラクションを研究している大学院生。</p>
+        <p>学部時代は身体尺度、現在は情報提示手法をテーマに研究・制作しています。</p>
+
+        <h3>Profile</h3>
+        <ul>
+          <li>2000.4 東京都福生市生まれ</li>
+          <li>2019.3 明星高等学校卒業</li>
+          <li>2022.3 明星大学卒業</li>
+          <li>2023.4〜 明星大学大学院 尼岡研究室所属</li>
+        </ul>
+
+        <h3>発表歴</h3>
+        <ul>
+          <li>2024.3 映像表現・芸術科学フォーラム2024</li>
+          <li>2023.12 NICOGRAPH 2023</li>
+          <li>2023.4 NICOGRAPH International 2023</li>
+          <li>2022.11 NICOGRAPH 2022</li>
+          <li>2022.6 NICOGRAPH International 2022</li>
+        </ul>
+
+        <h3>受賞歴</h3>
+        <ul>
+          <li>NICOGRAPH 2023 ポスター賞</li>
+          <li>明星大学情報学部卒研展 支援センター賞</li>
+        </ul>
       </section>
 
       <section id="contact" class="content-section">
-        <h2>連絡先</h2>
-        <p>メールアドレス・SNSリンクなどをここに記載します。</p>
+        <h2>Contact</h2>
+        <p><a href="mailto:kaito.mij@gmail.com">kaito.mij@gmail.com</a></p>
+
       </section>
     </main>
   </body>
